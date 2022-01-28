@@ -44,6 +44,7 @@ table {
 
 /* Style */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body{
     background-color: white;
@@ -125,7 +126,7 @@ body{
 }
 
 .banner-1{
-    height: 500px;
+    height: 1200px;
     background: linear-gradient(to right, #FF416C, #FF4B2B);
 }
 
@@ -153,15 +154,16 @@ body{
 .tittle-stikom{
     text-align: center;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
     padding-right: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .sub-stikom{
     text-align: left;
+    font-family: 'Poppins', sans-serif;
     line-height: 40px;
     font-size: 30px;
     padding-top: 60px;
@@ -169,9 +171,100 @@ body{
     color: white;
 }
 
+.tentang-2{
+    float: right;
+    padding-right: 100px;
+    width: 680px;
+    height: 700px;
+}
+
+.gambar-1{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 75px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-3{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 75px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-4{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    transition: .5s;
+}
+
+.gambar-1:hover , .gambar-2:hover , .gambar-3:hover , .gambar-4:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.sub-side{
+    margin-top: 120px;
+    width: 640px;
+    height: 700px;
+}
+
+.pict-1{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.social-care{
+    width: 70px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+.tittle{
+    margin-top: -20px;
+    padding-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sub-tittle{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+
 .footer{
     height: 250px;
-    background: white;
+    background: #c4c4c4;
     clear: both;
 }
 
